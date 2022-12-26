@@ -1,2 +1,6 @@
 # Knapsack
- Knapsack problem solution in python
+The knapsack problem solution is a program that uses an algorithm to efficiently solve the knapsack problem using memoization. The knapsack problem involves selecting a set of items to be placed in a knapsack, with each item having a certain value and weight. The goal is to maximize the total value of the items while not exceeding the capacity of the knapsack.
+
+To solve the problem, the program generates a table of all possible combinations of items and their corresponding values and weights. It then uses this table and the memoization technique to determine the optimal combination of items for a given knapsack capacity. This allows the program to avoid recalculating the same combinations of items multiple times, making it much more efficient, especially for large knapsacks with many items.
+
+The knapsack problem solution using memoization has a wide range of applications, including inventory management, resource allocation, and logistics. It can be used to optimize the selection of items for a given situation, such as selecting the most valuable items to include in a shipment or choosing the most cost-effective items to stock in a warehouse. The program is written in Python, making it easy to integrate into other Python-based systems and tools.
